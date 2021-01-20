@@ -1,3 +1,17 @@
+body{
+    background-color: #dddddd;
+    text-align: center;
+}
+
+/* #board-container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+} */
 
 .cell {
     width: 100px;
@@ -8,11 +22,13 @@
 }
 
 .black {
-    background-color: black;
+    /* background-color: black; */
+    background-image: url("images/black-marble.jpg");
 }
 
 .red {
-    background-color: darkred;
+    /* background-color: darkred; */
+    background-image: url("images/white-marble.jpg");
 }
 
 .checker {
@@ -23,9 +39,15 @@
 }
 
 .red-checker {
-    background-color: red;
+    /* background-color: red; */
+    background-image: url("images/white-stone.png");
+    background-size: cover;
 }
 
 .black-checker {
-    background-color: #333;
+    /* background-color: #333; */
+    background-image: url("images/black-stone.png");
+    background-size: cover;
 }
+
+
