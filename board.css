@@ -3,22 +3,27 @@ body{
     text-align: center;
 }
 
-/* #board-container {
-    display: flex;
-    justify-content: center;
+ #board-container {
+     background-image: url("images/wood-background.jpg");
+     display: inline-block;
+     padding: 2vh;
+    /* display: flex;
+    justify-content: center; */
 }
 
+/*
 .row {
     display: flex;
     justify-content: center;
 } */
 
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 8vw;
+    height: 8vw;
     display: inline-block;
     margin: 0px;
-    
+    max-width: 11vh;
+    max-height: 11vh;
 }
 
 .black {
@@ -32,10 +37,10 @@ body{
 }
 
 .checker {
-    margin: 10px;
+    margin: 10%;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    height: 80%;
+    width: 80%;
 }
 
 .red-checker {
